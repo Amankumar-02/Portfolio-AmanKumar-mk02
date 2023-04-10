@@ -51,8 +51,26 @@ body{
     background-color: antiquewhite;
     width: 50vw;
 }
-.link1{
-    
+.container2 p{
+    padding-bottom: 1rem;
+}
+.link1 a{
+    color: white;
+    background-color: var(--primary--);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+.container1 p{
+    padding-bottom: 1rem;
+}
+.link2 a{
+    color: var(--primary--);
+    background-color: white;
+    border: 2px solid var(--primary--);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
 }
 .container2{
     display: block;
@@ -67,6 +85,7 @@ body{
     color: white;
     text-align: center;
     padding: 1rem;
+    margin-top: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
